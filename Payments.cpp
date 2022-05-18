@@ -8,10 +8,10 @@ Payments::Payments()
 {
   paymentID = 0 ;
   Amount = 0.00 ;
-  strcpy(Ptime , "");
+  strcpy(Ptime , "" );
 }
 
-Payments::Payments(int PID, float pay_amount, string pay_time)
+Payments::Payments(int PID, float pay_amount, string pay_time )
 {
   paymentID = PID ;
   Amount = pay_amount ;
