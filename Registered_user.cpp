@@ -15,7 +15,7 @@ Registered_user::Registered_user()
 	strcpy(DOB, "");
 }
 Registered_user::Registered_user(int UID, string Uname, string PW, string mail, string bDate)
-{
+{ 
 	UserID = UID;
 	Username = Uname;
 	Password = PW;

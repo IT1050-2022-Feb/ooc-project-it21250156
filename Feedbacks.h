@@ -9,5 +9,6 @@ public:
 	Feedbacks(int FID, string feedback_content);
 	void UpdateFeedbacks();
 	~Feedbacks();
+
 };
 
