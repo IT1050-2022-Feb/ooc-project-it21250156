@@ -7,7 +7,6 @@ private:
 	string category;
 	float price;
 	
-
 public:
 	Games();
 	Games(int gId, string gName, string categ, float gPrice );

@@ -24,7 +24,8 @@ void Games::updateGameDetails()
 }
 void Games::storeGames()
 {
-		
+
+  
 }
 Games::~Games()
 {

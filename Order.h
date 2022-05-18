@@ -10,7 +10,6 @@ private:
 	Games * game[SIZE];
   Registered_User * rUser;
 	
-
 public:
 	Order();
 	Order(int oId );
