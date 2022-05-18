@@ -5,7 +5,7 @@ int main()
 {
   int x;
   
-  cout<<"gota baya"<<endl;
+  cout<<"hi"<<endl;
 
   return 0;
 }
