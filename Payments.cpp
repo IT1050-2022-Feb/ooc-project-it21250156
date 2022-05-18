@@ -21,6 +21,6 @@ void Payments::displayReciept()
 { 
 }
 
-Payments::~Payment()
+Payments::~Payments()
 { 
 }

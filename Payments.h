@@ -13,5 +13,5 @@ class Payments {
 		Payments();
 		Payments(int PID, float pay_amount, string pay_time) ;
 		void displayReciept();
-		~Payment();
+		~Payments();
 };
