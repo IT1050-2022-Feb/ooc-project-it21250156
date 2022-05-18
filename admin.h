@@ -7,5 +7,9 @@ class admin
   public:
     Admin();
     Admin(int AID);
-    void addGames(Games* g)
+    void addGames(Games* g1);
+    void deleteGame();
+    void removeFeedback();
+    void removeUser();
+    ~Admin();
 };
