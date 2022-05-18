@@ -1,3 +1,5 @@
+#define SIZE 20; 
+
 class admin
 {
   private:

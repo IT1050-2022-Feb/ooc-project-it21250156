@@ -1,23 +1,23 @@
-#include "feedbacks.h"
+#include "Feedbacks.h"
 #include<iostream>
 #include<cstring>
 using namespace std;
 
-feedback::Feedback()
+Feedbacks::Feedback()
 {
 	FeedbackID = "0";
 	strcpy(Feedbacks, "");
 }
-feedback::Feedbacks(int FID, string feedback_content)
+Feedbacks::Feedbacks(int FID, string feedback_content)
 {
 	FeedbackID = FID;
 	Feedbacks = feedback_content;
 }
-void feedback::UpdateFeedbacks()
+void Feedbacks::UpdateFeedbacks()
 {
 
 }
-feedback::~Feedbacks()
+Feedbacks::~Feedbacks()
 {
 
 }

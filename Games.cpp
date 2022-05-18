@@ -1,13 +1,16 @@
 #include "Games.h"
 #include<cstring>
+#include<cstring>
  
 Games::Games()
 {
-	gameId = 0;
+  gameId = 0;
+  strcpy(gameName,"");
+  strcpy(category,"");
 	price = 0;
 		
 }
-Games::Games(int gId, char gName[], char categ[], float gPrice )
+Games::Games(int gId, string gName,  string categ, float gPrice )
 {
 	gameId = gId;
 	strcpy(gameName,gName);
