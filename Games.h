@@ -9,8 +9,9 @@ private:
 
 public:
 	Games();
-	Games(int gId, char gName, char categ, float gPrice );
+	Games(int gId, char gName[], char categ[], float gPrice );
 	void updateGameDetails();
 	void storeGames();
 	~Games();
 };
+
