@@ -23,5 +23,6 @@ public:
 	void addCards();
 	void addFeedbacks();
 	~Registered_user();
+
 };
 
