@@ -4,12 +4,12 @@
 
 
 
-admin::Admin()
+admin::admin()
 {
   AdminID = 0 ;
 }
 
-admin::Admin(int AID)
+admin::admin(int AID)
 {
   AdminID = AID ;
 }
@@ -34,7 +34,7 @@ void admin::removeUser()
   
 }
 
-admin::~Admin()
+admin::~admin()
 {
   
 }
