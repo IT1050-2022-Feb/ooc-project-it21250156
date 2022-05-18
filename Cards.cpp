@@ -1,3 +1,6 @@
 #include <iostream>
 
-using na
+int main()
+{
+  std::cout << 'hi';
+}
