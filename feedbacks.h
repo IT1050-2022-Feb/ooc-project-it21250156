@@ -1,5 +1,3 @@
-#pragma once
-#include<cstring>
 class feedback
 {
 private:

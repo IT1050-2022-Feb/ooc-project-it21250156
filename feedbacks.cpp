@@ -1,5 +1,6 @@
 #include "feedbacks.h"
 #include<iostream>
+#include<cstring>
 using namespace std;
 
 feedback::Feedback()

@@ -1,3 +1,6 @@
+#include <string>
+#include <cstring>
+
 class Payments {
 	private : 
 		int paymentID ;
