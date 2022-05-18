@@ -4,7 +4,7 @@
 using namespace std;
 
 
-Feedbacks::Feedback()
+Feedbacks::Feedbacks()
 {
 	FeedbackID = "0";
 	strcpy(Feedbacks, "");

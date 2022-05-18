@@ -1,4 +1,4 @@
-class Feedback
+class Feedbacks
 {
 private:
 	int FeedbackID;
