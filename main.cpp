@@ -6,6 +6,7 @@
 #include "Payments.h"
 #include "Registered_user.h"
 
+
 int main{
 
   admin A1(100);
